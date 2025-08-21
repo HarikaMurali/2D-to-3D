@@ -18,9 +18,13 @@ default.ini
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+*.pyo
+*.pyd
 
 # vscode
 .vscode
+.idea/
 
 # C extensions
 *.so
@@ -138,3 +142,6 @@ Data/
 
 # Ignore jupyter
 .ipynb_checkpoints
+
+outputs/
+temp/

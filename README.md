@@ -205,3 +205,32 @@ These are some known and relevant issues with the current implementation:
 [GNU GENERAL PUBLIC LICENSE](license) Version 3, 29 June 2007
 
 COPYRIGHT @ Grebtsew 2021
+
+## Web Interface Enhancement
+Added a Gradio web interface for easier interaction with the FloorplanToBlender3d converter.
+
+### New Features
+- Browser-based UI for uploading floorplans
+- One-click 3D model generation
+- Direct model download capability
+- Real-time processing status
+
+### Technical Details
+- Implementation: `app.py`
+- Framework: Gradio
+- Requirements: 
+  - Gradio
+  - PIL
+  - Original project dependencies
+
+### Usage
+```bash
+python app.py
+```
+The interface will be available at `http://localhost:7860`
+
+### Credits
+Web Interface Implementation: [@HarikaMurali] (https://github.com/HarikaMurali)
+Based on original FloorplanToBlender3d project.
+
+
